@@ -80,3 +80,40 @@ def evaluate_rules(df: pd.DataFrame, rules_cfg: dict) -> pd.DataFrame:
 def run(df: pd.DataFrame, rules_cfg: dict) -> pd.DataFrame:
     feats = compute_features(df)
     return evaluate_rules(feats, rules_cfg)
+def evaluate_rules_trend(df: pd.DataFrame, rules_cfg: dict, window: int = 90) -> pd.DataFrame:
+    feats = compute_features(df)
+    recent = feats.tail(window).copy()
+
+    # Rule booleans per day
+    checks = pd.DataFrame(index=recent.index)
+    checks["rule__price_above_month_avwap"] = recent["Close"] > recent["avwap_month"]
+    checks["rule__price_above_week_avwap"]  = recent["Close"] > recent["avwap_week"]
+    checks["rule__rsi_bullish"]             = recent["rsi14"] >= 55
+    checks["rule__rsi_bearish"]             = recent["rsi14"] <= 45
+    checks["rule__vol_surge"]               = recent["vol_z20"] >= 1.5
+    checks["rule__fii_dii_divergence_pos"]  = (recent["fii_cash_net_cr"] > 0) & (recent["dii_cash_net_cr"] < 0)
+    checks["rule__fii_dii_divergence_neg"]  = (recent["fii_cash_net_cr"] < 0) & (recent["dii_cash_net_cr"] > 0)
+    checks["rule__corr_flip"]               = (recent["corr20_bn"] < 0.6).fillna(False)
+    checks["rule__higher_high"]             = recent["Close"] > recent["hh_20"]
+    checks["rule__lower_low"]               = recent["Close"] < recent["ll_20"]
+
+    # Score
+    weights = {r["id"]: r["weight"] for r in rules_cfg["rules"]}
+    raw = 0
+    for rid, w in weights.items():
+        col = f"rule__{rid}"
+        if col in checks.columns:
+            raw = raw + checks[col].astype(int) * w
+
+    smin, smax = rules_cfg["score_bounds"]["min"], rules_cfg["score_bounds"]["max"]
+    normalized = (((raw + 40) / 80) * 100).round().clip(smin, smax).astype(int)
+
+    out = recent[["date","Close","Volume","avwap_month","avwap_week","rsi14","vol_z20","corr20_bn",
+                  "fii_cash_net_cr","dii_cash_net_cr"]].copy()
+    out["raw_score"]  = raw.values
+    out["mood_score"] = normalized.values
+
+    # attach booleans
+    out = pd.concat([out, checks.reset_index(drop=True)], axis=1)
+    return out.reset_index(drop=True)
+
