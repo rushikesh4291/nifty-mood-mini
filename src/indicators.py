@@ -9,7 +9,7 @@ def rsi(series: pd.Series, period: int = 14) -> pd.Series:
     loss_ema = pd.Series(loss, index=series.index).ewm(alpha=1/period, adjust=False).mean()
     rs = gain_ema / (loss_ema.replace(0, np.nan))
     rsi = 100 - (100 / (1 + rs))
-    return rsi.fillna(method="bfill").clip(0, 100)
+    return rsi.bfill().clip(0, 100)
 
 def anchored_vwap(df: pd.DataFrame, anchor_mask: pd.Series) -> pd.Series:
     """
