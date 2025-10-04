@@ -1,5 +1,4 @@
 date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr,dii_cash_net_cr,raw_score,mood_score,rule__price_above_month_avwap,rule__price_above_week_avwap,rule__rsi_bullish,rule__rsi_bearish,rule__vol_surge,rule__fii_dii_divergence_pos,rule__fii_dii_divergence_neg,rule__corr_flip,rule__higher_high,rule__lower_low
-2025-05-27,24826.19921875,525700.0,24032.967459203806,24890.140335036966,57.63383221962446,2.0949780593093603,0.7670004825385974,,,28.0,85.0,,,,,,,,,,
 2025-05-28,24752.44921875,684400.0,24065.76855406951,24827.852146797955,56.05398532265286,2.930080574263384,0.8458939826764116,,,28.0,85.0,,,,,,,,,,
 2025-05-29,24833.599609375,345400.0,24083.037565725215,24828.920420797906,57.43655660639602,-0.39113481269622075,0.884692975559208,,,30.0,88.0,,,,,,,,,,
 2025-05-30,24750.69921875,853900.0,24118.205181447353,24804.29351849398,55.51510330564874,3.0721100736398674,0.9002692369907312,,,28.0,85.0,,,,,,,,,,
@@ -89,7 +88,7 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 2025-09-29,24634.900390625,394400.0,24954.18314404309,24634.900390625,38.78989476140017,2.1162673753333383,0.9209863298966673,,,-4.0,45.0,,,,,,,,,,
 2025-09-30,24611.099609375,303000.0,24936.789008609645,24624.559643967772,38.13404924203425,0.5025886492738534,0.8768948964016203,,,-10.0,38.0,,,,,,,,,,
 2025-10-01,24836.30078125,308900.0,24836.30078125,24689.5569979442,47.22617874559788,0.6475987436025998,0.808402389831293,,,8.0,60.0,,,,,,,,,,
-,,,,,,,,,,,,True,False,True,False,True,False,False,False,False,False
+2025-10-03,24894.25,365900.0,24867.722860592952,24744.138815064314,49.29135695079396,1.5240757285632263,0.7282302808575353,,,26.0,82.0,,,,,,,,,,
 ,,,,,,,,,,,,True,False,True,False,True,False,False,False,False,False
 ,,,,,,,,,,,,True,True,True,False,False,False,False,False,False,False
 ,,,,,,,,,,,,True,False,True,False,True,False,False,False,False,False
@@ -179,3 +178,4 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 ,,,,,,,,,,,,False,False,False,True,True,False,False,False,False,False
 ,,,,,,,,,,,,False,False,False,True,False,False,False,False,False,False
 ,,,,,,,,,,,,False,True,False,False,False,False,False,False,False,False
+,,,,,,,,,,,,True,True,False,False,True,False,False,False,False,False
