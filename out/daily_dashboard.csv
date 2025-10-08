@@ -1,5 +1,4 @@
 date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr,dii_cash_net_cr,raw_score,mood_score,rule__price_above_month_avwap,rule__price_above_week_avwap,rule__rsi_bullish,rule__rsi_bearish,rule__vol_surge,rule__fii_dii_divergence_pos,rule__fii_dii_divergence_neg,rule__corr_flip,rule__higher_high,rule__lower_low
-2025-05-29,24833.599609375,345400.0,24083.037565725215,24828.920420797906,57.436630960980956,-0.39113481269622075,0.8846929755592325,,,30.0,88.0,,,,,,,,,,
 2025-05-30,24750.69921875,853900.0,24118.205181447353,24804.29351849398,55.515172768602774,3.0721100736398674,0.9002692369907589,,,28.0,85.0,,,,,,,,,,
 2025-06-02,24716.599609375,311100.0,24129.472272173836,24716.599609375,54.70450559134326,-0.665440941198806,0.8579943351917135,-2140.0,-2225.0,12.0,65.0,,,,,,,,,,
 2025-06-03,24542.5,349300.0,24138.023261714352,24624.51451919528,50.638700789412496,-0.4220816012656253,0.7891935837323832,2390.0,1014.0,12.0,65.0,,,,,,,,,,
@@ -89,7 +88,7 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 2025-10-01,24836.30078125,308900.0,24836.30078125,24689.5569979442,47.22617890867762,0.6475987436025998,0.8084023898313237,,,8.0,60.0,,,,,,,,,,
 2025-10-03,24894.25,365900.0,24867.722860592952,24744.138815064314,49.29135711434429,1.5240757285632263,0.7282302808575645,,,26.0,82.0,,,,,,,,,,
 2025-10-06,25077.650390625,268800.0,24927.52417478606,25077.650390625,55.25874791921758,-0.15438249231712464,0.6562779723829384,,,22.0,78.0,,,,,,,,,,
-,,,,,,,,,,,,True,True,True,False,False,False,False,False,False,False
+2025-10-07,25108.30078125,288000.0,24969.79736629435,25093.504040948275,56.186707007851496,0.116952320450604,0.596736396368278,,,24.0,80.0,,,,,,,,,,
 ,,,,,,,,,,,,True,False,True,False,True,False,False,False,False,False
 ,,,,,,,,,,,,True,False,False,False,False,False,False,False,False,False
 ,,,,,,,,,,,,True,False,False,False,False,False,False,False,False,False
@@ -179,3 +178,4 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 ,,,,,,,,,,,,False,True,False,False,False,False,False,False,False,False
 ,,,,,,,,,,,,True,True,False,False,True,False,False,False,False,False
 ,,,,,,,,,,,,True,False,True,False,False,False,False,False,False,False
+,,,,,,,,,,,,True,True,True,False,False,False,False,True,False,False
