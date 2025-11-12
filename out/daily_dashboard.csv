@@ -1,5 +1,4 @@
 date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr,dii_cash_net_cr,raw_score,mood_score,rule__price_above_month_avwap,rule__price_above_week_avwap,rule__rsi_bullish,rule__rsi_bearish,rule__vol_surge,rule__fii_dii_divergence_pos,rule__fii_dii_divergence_neg,rule__corr_flip,rule__higher_high,rule__lower_low
-2025-07-01,25541.80078125,260700.0,25541.80078125,25529.186054900554,64.29371866836101,-0.7257290696020164,0.9563811126154154,2051.0,342.0,18.0,72.0,,,,,,,,,,
 2025-07-02,25453.400390625,309800.0,25493.79650251972,25501.285402740643,61.34480184176911,-0.24838185064823934,0.9573979198861553,-1816.0,1551.0,0.0,50.0,,,,,,,,,,
 2025-07-03,25405.30078125,293400.0,25463.741351899815,25476.47098037272,59.73924474534703,-0.3678052991565567,0.950895345111474,1555.0,798.0,10.0,62.0,,,,,,,,,,
 2025-07-04,25461.0,193500.0,25463.239695390817,25474.217416158535,61.011790808704674,-1.2519459399082198,0.9626507969210271,385.0,-1725.0,20.0,75.0,,,,,,,,,,
@@ -89,7 +88,7 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 2025-11-06,25509.69921875,371900.0,25509.93102149861,25556.456260932813,49.76012293643458,0.8131740463501547,0.9732804429161034,,,0.0,50.0,,,,,,,,,,
 2025-11-07,25492.30078125,305600.0,25509.187609872377,25536.965342758973,49.16424466643707,0.15347740956325923,0.941814943271001,,,0.0,50.0,,,,,,,,,,
 2025-11-10,25574.349609375,243600.0,25511.306614421683,25574.349609375,52.07866273556432,-0.4124323800995352,0.9209555280956095,,,12.0,65.0,,,,,,,,,,
-,,,,,,,,,,,,False,True,True,False,False,False,False,False,False,False
+2025-11-11,25694.94921875,297700.0,25518.325809320515,25640.67605258752,56.06565108586492,0.06823092820654177,0.9017278423958208,,,30.0,88.0,,,,,,,,,,
 ,,,,,,,,,,,,False,False,True,False,False,False,True,False,False,False
 ,,,,,,,,,,,,False,False,True,False,False,False,False,False,False,False
 ,,,,,,,,,,,,False,False,True,False,False,True,False,False,False,False
@@ -179,3 +178,4 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 ,,,,,,,,,,,,False,False,False,False,False,False,False,False,False,False
 ,,,,,,,,,,,,False,False,False,False,False,False,False,False,False,False
 ,,,,,,,,,,,,True,False,False,False,False,False,False,False,False,False
+,,,,,,,,,,,,True,True,True,False,False,False,False,False,False,False
