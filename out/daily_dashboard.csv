@@ -1,5 +1,4 @@
 date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr,dii_cash_net_cr,raw_score,mood_score,rule__price_above_month_avwap,rule__price_above_week_avwap,rule__rsi_bullish,rule__rsi_bearish,rule__vol_surge,rule__fii_dii_divergence_pos,rule__fii_dii_divergence_neg,rule__corr_flip,rule__higher_high,rule__lower_low
-2025-09-12,25114.0,225700.0,24802.88122868665,24949.069748168247,61.00419381435264,-0.5062198496541769,0.7097446261809732,,,30.0,88.0,,,,,,,,,,
 2025-09-15,25069.19921875,185400.0,24821.268505846645,25069.19921875,59.007533998700495,-0.793888223617743,0.78429420762417,,,22.0,78.0,,,,,,,,,,
 2025-09-16,25239.099609375,240100.0,24855.561678731436,25165.07015597459,63.84095682237934,-0.2967864801833253,0.8131009405271951,,,30.0,88.0,,,,,,,,,,
 2025-09-17,25330.25,268900.0,24895.521510177798,25229.034528178552,66.14714571150571,-0.06468089096589522,0.8600254820583815,,,30.0,88.0,,,,,,,,,,
@@ -88,8 +87,8 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 2026-01-19,25585.5,443100.0,25916.759738894154,25585.5,37.33666793875933,1.3932668751744102,,,,-10.0,38.0,,,,,,,,,,
 2026-01-20,25232.5,409800.0,25858.5315184903,25415.891136123813,29.26958142541723,0.976749428230863,,,,-10.0,38.0,,,,,,,,,,
 2026-01-21,25157.5,395600.0,25805.314841516272,25334.017260712855,27.890745708929856,0.734838027237058,,,,-10.0,38.0,,,,,,,,,,
-2026-01-22,25311.0,0.0,25805.314841516272,25334.017260712855,34.67365731374484,-2.8703212170407317,,,,-10.0,38.0,,,,,,,,,,
-,,,,,,,,,,,,True,True,True,False,False,False,False,False,False,False
+2026-01-22,25289.900390625,486400.0,25761.315054073355,25321.648567640786,33.81793770418162,1.5873199083684542,,,,-4.0,45.0,,,,,,,,,,
+2026-01-23,25344.599609375,0.0,25761.315054073355,25321.648567640786,36.152878398055634,-2.9694691155570245,,,,-2.0,48.0,,,,,,,,,,
 ,,,,,,,,,,,,True,False,True,False,False,False,False,False,False,False
 ,,,,,,,,,,,,True,True,True,False,False,False,False,False,False,False
 ,,,,,,,,,,,,True,True,True,False,False,False,False,False,False,False
@@ -178,4 +177,5 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 ,,,,,,,,,,,,False,False,False,True,False,False,False,False,False,False
 ,,,,,,,,,,,,False,False,False,True,False,False,False,False,False,False
 ,,,,,,,,,,,,False,False,False,True,False,False,False,False,False,False
-,,,,,,,,,,,,False,False,False,True,False,False,False,False,False,False
+,,,,,,,,,,,,False,False,False,True,True,False,False,False,False,False
+,,,,,,,,,,,,False,True,False,True,False,False,False,False,False,False
