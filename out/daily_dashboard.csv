@@ -88,7 +88,7 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 2026-02-03,25727.55078125,637300.0,25588.939411740423,25463.301949709505,53.15359129136314,1.9601542376760877,0.761095701641726,,,26.0,82.0,,,,,,,,,,
 2026-02-04,25776.0,429800.0,25597.066807880245,25551.93719472359,54.18142498882023,-0.08607682388854372,0.7516626873073557,,,20.0,75.0,,,,,,,,,,
 2026-02-05,25642.80078125,343800.0,25598.60287533216,25568.731399899534,50.87648748532919,-0.902302257709486,0.7297604034116052,,,20.0,75.0,,,,,,,,,,
-2026-02-06,25556.80078125,0.0,25598.60287533216,25568.731399899534,48.80648065683316,-2.983138166058222,0.7277738686975912,,,0.0,50.0,,,,,,,,,,
+2026-02-06,25693.69921875,375500.0,25601.96793592183,25589.72147682669,52.07936889669716,-0.6214691179290563,0.7420942461576013,,,20.0,75.0,,,,,,,,,,
 ,,,,,,,,,,,,False,False,False,True,False,False,False,False,False,False
 ,,,,,,,,,,,,False,False,False,True,True,False,False,False,False,False
 ,,,,,,,,,,,,False,False,False,True,False,False,False,False,False,False
@@ -178,4 +178,4 @@ date,Close,Volume,avwap_month,avwap_week,rsi14,vol_z20,corr20_bn,fii_cash_net_cr
 ,,,,,,,,,,,,True,True,False,False,True,False,False,False,False,False
 ,,,,,,,,,,,,True,True,False,False,False,False,False,False,False,False
 ,,,,,,,,,,,,True,True,False,False,False,False,False,False,False,False
-,,,,,,,,,,,,False,False,False,False,False,False,False,False,False,False
+,,,,,,,,,,,,True,True,False,False,False,False,False,False,False,False
